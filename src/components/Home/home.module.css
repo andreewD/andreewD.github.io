@@ -1,0 +1,43 @@
+.home {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #010b16;
+  opacity: 0.8;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.main h1 {
+  font-size: 55px;
+  text-align: center;
+  color: white;
+}
+
+.main .skyBlue {
+  color: #037fff;
+}
+
+.main h2 {
+  font-size: medium;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.main .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  z-index: 1;
+}
