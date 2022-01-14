@@ -1,0 +1,16 @@
+.mainAbout {
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(36, 36, 44);
+  /* opacity: 1; */
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}

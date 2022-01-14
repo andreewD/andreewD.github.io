@@ -9,12 +9,12 @@ import {
   faLinkedin,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import { useHref } from "react-router-dom";
+
 function home() {
   return (
     <div className={styles.home}>
       <LeftBar />
-      <Particles />
+      {/* <Particles /> */}
       <div className={styles.main}>
         <h1>
           Hi , I am <h1 className={styles.skyBlue}>Andree Anchi</h1>

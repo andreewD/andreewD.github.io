@@ -11,7 +11,7 @@ function particles() {
               value: "#0d47a1",
             },
           },
-          fpsLimit: 60,
+          fpsLimit: 20,
           interactivity: {
             events: {
               onClick: {
@@ -35,7 +35,7 @@ function particles() {
                 quantity: 4,
               },
               repulse: {
-                distance: 200,
+                distance: 150,
                 duration: 0.4,
               },
             },
