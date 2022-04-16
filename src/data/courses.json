@@ -1,0 +1,153 @@
+[
+  {
+    "day": "Lunes",
+    "courses": [
+      {
+        "name": "Concurrente",
+        "type": "T",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTYxMDcwNzQz",
+        "from": 7,
+        "to": 9
+      },
+      {
+        "name": "Concurrente",
+        "type": "PD",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTYxMDcwNzQz",
+        "from": 9,
+        "to": 10
+      },
+      {
+        "name": "IA",
+        "type": "PC",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTYwNTA4NTc3",
+        "from": 15,
+        "to": 18
+      }
+    ]
+  },
+  {
+    "day": "Martes",
+    "courses": [
+      {
+        "name": "Concurrente",
+        "type": "PC",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTYxMDcwNzQz",
+        "from": 7,
+        "to": 10
+      },
+      {
+        "name": "IHC",
+        "type": "T",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTMwNjA0NDg0",
+        "from": 14,
+        "to": 16
+      },
+      {
+        "name": "IHC",
+        "type": "PD",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTMwNjA0NDg0",
+        "from": 16,
+        "to": 17
+      },
+      {
+        "name": "Metodologia",
+        "type": "T",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTYzMDM5NTgw",
+        "from": 18,
+        "to": 19
+      },
+      {
+        "name": "Metodologia",
+        "type": "PC",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTYzMDM5NTgw",
+        "from": 19,
+        "to": 21
+      }
+    ]
+  },
+  {
+    "day": "Miercoles",
+    "courses": [
+      {
+        "name": "IHC",
+        "type": "PC",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTMwNjA0NDg0",
+        "from": 14,
+        "to": 17
+      },
+      {
+        "name": "IA",
+        "type": "T",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTYwNTA4NTc3",
+        "from": 18,
+        "to": 21
+      }
+    ]
+  },
+  {
+    "day": "Jueves",
+    "courses": [
+      {
+        "name": "Grafica",
+        "type": "T",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTQ3OTUzNDgy",
+        "from": 18,
+        "to": 20
+      },
+      {
+        "name": "Grafica",
+        "type": "PD",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTQ3OTUzNDgy",
+        "from": 20,
+        "to": 21
+      }
+    ]
+  },
+  {
+    "day": "Viernes",
+    "courses": [
+      {
+        "name": "Seguridad",
+        "type": "T",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTYwNTAxMjY0",
+        "from": 15,
+        "to": 18
+      }
+    ]
+  },
+  {
+    "day": "Sabado",
+    "courses": [
+      {
+        "name": "Grafica",
+        "type": "PC",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTQ3OTUzNDgy",
+        "from": 7,
+        "to": 10
+      },
+
+      {
+        "name": "Seguridad",
+        "type": "PC",
+        "zoomLink": "https://www.google.com",
+        "classroomLink": "https://classroom.google.com/u/1/c/NDk4OTYwNTAxMjY0",
+        "from": 15,
+        "to": 18
+      }
+    ]
+  }
+]
