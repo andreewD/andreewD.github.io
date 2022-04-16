@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "^17.4",
-    "yarn": "^1.22"
+    "node": "16.14"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
