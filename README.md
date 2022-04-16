@@ -1,18 +1,33 @@
-En este repositorio tengo alojado un template perteneciente a CodyHouse y editado con los cursos de 5to ciclo de mi carrera . 
-Sientete libre de clonar este repo y editarlo con los cursos de tu ciclo ;)
+# Horario
 
-Info de CodyHouse :
+## Uso
 
-# Schedule Template
+Clonar el repositorio
 
-A simple template that lets you display events on a timeline, as well as organize them in groups (week days, conference rooms etc…).
+```
+git clone https://github.com/andreewD/andreewD.github.io.git
+```
 
-[Article on CodyHouse](https://codyhouse.co/gem/schedule-template)
- 
-[License](https://codyhouse.co/license)
+Instalar las dependencias
 
-## Dependencies
+```
+yarn install
+```
 
-This experiment is built upon the [CodyHouse Framework](https://github.com/CodyHouse/codyhouse-framework).
+Editar el archivo [courses.json](./src/data/courses.json) siguiendo las siguientes interfaces
 
-Make sure to include both the style.scss and util.js files of the framework.
+```
+interface Day{
+    day:string
+    courses:Array<Course>
+}
+
+interface Course{
+    name:string
+    type:string
+    zoomLink:string
+    clasroomLink:string
+    from:number
+    to:number
+}
+```
