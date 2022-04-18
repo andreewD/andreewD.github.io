@@ -61,6 +61,10 @@ function Main() {
   if (finalData.length > 0) {
     return (
       <CustomSider>
+        <Col>
+          <h2>Hoy : {dateNow.day}</h2>
+          <h3>Hora : {dateNow.hour}</h3>
+        </Col>
         <Row justify="center">
           <Col style={{ width: "100%" }}>
             <h1>Cursos ahora</h1>
@@ -88,6 +92,10 @@ function Main() {
   } else {
     return (
       <CustomSider>
+        <Col>
+          <h2>Hoy : {dateNow.day}</h2>
+          <h3>Hora : {dateNow.hour}</h3>
+        </Col>
         <Row justify="center" align="middle" style={{ height: "100vh" }}>
           <Empty
             description={<span>No hay cursos por el momento.</span>}
