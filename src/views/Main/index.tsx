@@ -2,13 +2,14 @@ import { Col, Row, Empty } from "antd";
 import { useEffect, useState } from "react";
 import { Course, CustomSider } from "../../components";
 import data from "../../data/courses.json";
+import moment, { Moment } from "moment";
 interface DateCustom {
   day: string;
   hour: number;
 }
 
-const dayTransalator = (date: Date): string => {
-  switch (date.getDay()) {
+const dayTransalator = (date: Moment): string => {
+  switch (date.day()) {
     case 1:
       return "Lunes";
     case 2:
@@ -32,12 +33,10 @@ function Main() {
   const [dateNow, setdateNow] = useState<DateCustom>({ day: "", hour: 0 });
 
   useEffect(() => {
-    var dateNow = new Date().toLocaleString("en-US", {
-      timeZone: "America/Lima",
-    });
-    const dateNow1 = new Date(dateNow);
+    var dateNow = moment();
+    console.log(dateNow);
     return () => {
-      setdateNow({ day: dayTransalator(dateNow1), hour: dateNow1.getHours() });
+      setdateNow({ day: dayTransalator(dateNow), hour: dateNow.hour() });
     };
   }, []);
   const finalData: {
